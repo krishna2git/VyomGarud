@@ -1,4 +1,4 @@
-## geeting started with landing page using React and Tailwind CSS
+## Getting started with landing page using React and Tailwind CSS
 ## VyomGarud – UAV Systems Website
 
 A modern, animated, drone-technology website built using React, Tailwind CSS, and Framer Motion.
