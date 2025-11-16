@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+## geeting started with landing page using React and Tailwind CSS
+## VyomGarud – UAV Systems Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, animated, drone-technology website built using React, Tailwind CSS, and Framer Motion.
+This project showcases sections like Hero, Highlights, Capabilities, About, and Contact with smooth animations and clean UI.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Tech Stack
+Technology	      Purpose
+React (CRA) ------------	Front-end framework
+Tailwind CSS --------------  	UI styling & utility classes
+Framer Motion ------------	Animations (text, fade, hover, scroll effects)
+JavaScript	 ---------------Logic & interactivity
+Public folder assets------	Drone images, icons
 
-### `npm start`
+## Project Structure
+src/
+ ├── components/
+ │    ├── Hero.jsx
+ │    ├── Highlights.jsx
+ │    ├── About.jsx
+ │    ├── Capabilities.jsx
+ │    ├── Footer.jsx
+ │    └── Navbar.jsx
+ ├── App.jsx
+ ├── index.js
+ └── index.css
+       
+public/
+ ├── drone1.jpg
+ ├── drone2.jpg
+ └── drone.png (--favicon--)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Guide
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Clone the repo
+git clone <your-repo-url>
+cd vyomgarud
 
-### `npm test`
+## Install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(This installs React, Tailwind, Framer Motion, etc.)
 
-### `npm run build`
+## Start development server
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App runs at:
+http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Design Notes
+Theme
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Dark futuristic drone-tech aesthetic
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Accent color: orange neon
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Smooth gradients & overlays
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Subtle glows and hover effects
 
-## Learn More
+Minimal UI with strong typography
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Components
+1. Hero Section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Background drone image (drone2.jpg)
 
-### Code Splitting
+Text fade-in + CTA animation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Overlay darkening layer for contrast
 
-### Analyzing the Bundle Size
+Z-index stacking so text is always visible above the image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Highlights Section
 
-### Making a Progressive Web App
+Static background image (drone1.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bounce-in text on scroll
 
-### Advanced Configuration
+Hover scale effect
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Neon diamond icon glow
 
-### Deployment
+3. Capabilities
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Animated cards sliding L→R when visible
 
-### `npm run build` fails to minify
+Hover scale + glow effect
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. About Section
+
+Text animation with letter-by-letter reveal
+
+Triggered each time you scroll into the section
+
+Clean paragraph description
+
+5. Footer
+
+Full-width top border line
+
+Contact form
+
+Bottom-center copyright
+
+
+## Important Notes
+Images must be placed in /public
+
+Example:  public/drone1.jpg
+
+
+
+
+
+
+
+
